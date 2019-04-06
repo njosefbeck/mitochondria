@@ -4,4 +4,4 @@ import { ReactDOM } from 'https://unpkg.com/es-react@16.8.30'
 import html from './html/index.js'
 import App from './App/index.js'
 
-ReactDOM.render(html`<${App} name="you" />`, document.getElementById('root'))
+ReactDOM.render(html`<${App} />`, document.getElementById('root'))

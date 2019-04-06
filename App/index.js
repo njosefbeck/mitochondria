@@ -1,4 +1,9 @@
 import html from '../html/index.js'
-const App = ({ name }) => html`<div>Hello ${name}!</div>`
+import Hello from '../Hello/index.js'
+const App = () => html`
+  <main>
+    <${Hello} name="you" />
+  </main>
+`
 
 export default App
